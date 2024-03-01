@@ -1,0 +1,601 @@
+Begin Project "dbartisangit", "DBArtisan Git Integration Demo", VC_PROJECT=, AUXPROJPATH=, NATIVEVC=
+DATASOURCE=SQL Server on 192.168.56.1
+DATABASE=
+
+Begin SubProject "Table", "", PATH=.\Table
+
+Begin File "dbo.Categories.sql"
+PATH=.\Table\dbo.Categories.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=0
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.CustomerCustomerDemo.sql"
+PATH=.\Table\dbo.CustomerCustomerDemo.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=1
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.CustomerDemographics.sql"
+PATH=.\Table\dbo.CustomerDemographics.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=2
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Customers.sql"
+PATH=.\Table\dbo.Customers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=3
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Employees.sql"
+PATH=.\Table\dbo.Employees.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=4
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.EmployeeTerritories.sql"
+PATH=.\Table\dbo.EmployeeTerritories.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=5
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Order Details.sql"
+PATH=.\Table\dbo.Order Details.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=6
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Orders.sql"
+PATH=.\Table\dbo.Orders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=7
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Products.sql"
+PATH=.\Table\dbo.Products.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=8
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Region.sql"
+PATH=.\Table\dbo.Region.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=9
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Shippers.sql"
+PATH=.\Table\dbo.Shippers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=10
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Suppliers.sql"
+PATH=.\Table\dbo.Suppliers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=11
+OBJECTTYPE=36
+End File
+
+Begin File "dbo.Territories.sql"
+PATH=.\Table\dbo.Territories.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=12
+OBJECTTYPE=36
+End File
+
+End SubProject
+
+Begin SubProject "Index", "", PATH=.\Index
+
+Begin File "dbo.CategoryName.sql"
+PATH=.\Index\dbo.CategoryName.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=13
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.City.sql"
+PATH=.\Index\dbo.City.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=14
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.CompanyName.sql"
+PATH=.\Index\dbo.CompanyName.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=15
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.PostalCode.sql"
+PATH=.\Index\dbo.PostalCode.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=16
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.Region.sql"
+PATH=.\Index\dbo.Region.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=17
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.LastName.sql"
+PATH=.\Index\dbo.LastName.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=18
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.OrderID.sql"
+PATH=.\Index\dbo.OrderID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=19
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.OrdersOrder_Details.sql"
+PATH=.\Index\dbo.OrdersOrder_Details.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=20
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ProductID.sql"
+PATH=.\Index\dbo.ProductID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=21
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ProductsOrder_Details.sql"
+PATH=.\Index\dbo.ProductsOrder_Details.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=22
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.CustomerID.sql"
+PATH=.\Index\dbo.CustomerID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=23
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.CustomersOrders.sql"
+PATH=.\Index\dbo.CustomersOrders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=24
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.EmployeeID.sql"
+PATH=.\Index\dbo.EmployeeID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=25
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.EmployeesOrders.sql"
+PATH=.\Index\dbo.EmployeesOrders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=26
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.OrderDate.sql"
+PATH=.\Index\dbo.OrderDate.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=27
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ShipPostalCode.sql"
+PATH=.\Index\dbo.ShipPostalCode.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=28
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ShippedDate.sql"
+PATH=.\Index\dbo.ShippedDate.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=29
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ShippersOrders.sql"
+PATH=.\Index\dbo.ShippersOrders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=30
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.CategoriesProducts.sql"
+PATH=.\Index\dbo.CategoriesProducts.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=31
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.CategoryID.sql"
+PATH=.\Index\dbo.CategoryID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=32
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.ProductName.sql"
+PATH=.\Index\dbo.ProductName.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=33
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.SupplierID.sql"
+PATH=.\Index\dbo.SupplierID.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=34
+OBJECTTYPE=17
+End File
+
+Begin File "dbo.SuppliersProducts.sql"
+PATH=.\Index\dbo.SuppliersProducts.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=35
+OBJECTTYPE=17
+End File
+
+End SubProject
+
+Begin SubProject "ForeignKey", "", PATH=.\ForeignKey
+
+Begin File "dbo.FK_CustomerCustomerDemo.sql"
+PATH=.\ForeignKey\dbo.FK_CustomerCustomerDemo.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=36
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_CustomerCustomerDemo_Customers.sql"
+PATH=.\ForeignKey\dbo.FK_CustomerCustomerDemo_Customers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=37
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_EmployeeTerritories_Employees.sql"
+PATH=.\ForeignKey\dbo.FK_EmployeeTerritories_Employees.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=38
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_EmployeeTerritories_Territories.sql"
+PATH=.\ForeignKey\dbo.FK_EmployeeTerritories_Territories.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=39
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Employees_Employees.sql"
+PATH=.\ForeignKey\dbo.FK_Employees_Employees.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=40
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Order_Details_Orders.sql"
+PATH=.\ForeignKey\dbo.FK_Order_Details_Orders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=41
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Order_Details_Products.sql"
+PATH=.\ForeignKey\dbo.FK_Order_Details_Products.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=42
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Orders_Customers.sql"
+PATH=.\ForeignKey\dbo.FK_Orders_Customers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=43
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Orders_Employees.sql"
+PATH=.\ForeignKey\dbo.FK_Orders_Employees.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=44
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Orders_Shippers.sql"
+PATH=.\ForeignKey\dbo.FK_Orders_Shippers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=45
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Products_Categories.sql"
+PATH=.\ForeignKey\dbo.FK_Products_Categories.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=46
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Products_Suppliers.sql"
+PATH=.\ForeignKey\dbo.FK_Products_Suppliers.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=47
+OBJECTTYPE=51
+End File
+
+Begin File "dbo.FK_Territories_Region.sql"
+PATH=.\ForeignKey\dbo.FK_Territories_Region.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=48
+OBJECTTYPE=51
+End File
+
+End SubProject
+
+Begin SubProject "Procedure", "", PATH=.\Procedure
+
+Begin File "dbo.CustOrderHist.sql"
+PATH=.\Procedure\dbo.CustOrderHist.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=49
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.CustOrdersDetail.sql"
+PATH=.\Procedure\dbo.CustOrdersDetail.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=50
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.CustOrdersOrders.sql"
+PATH=.\Procedure\dbo.CustOrdersOrders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=51
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.Employee Sales by Country.sql"
+PATH=.\Procedure\dbo.Employee Sales by Country.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=52
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.Sales by Year.sql"
+PATH=.\Procedure\dbo.Sales by Year.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=53
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.SalesByCategory.sql"
+PATH=.\Procedure\dbo.SalesByCategory.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=54
+OBJECTTYPE=22
+End File
+
+Begin File "dbo.Ten Most Expensive Products.sql"
+PATH=.\Procedure\dbo.Ten Most Expensive Products.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=55
+OBJECTTYPE=22
+End File
+
+End SubProject
+
+Begin SubProject "View", "", PATH=.\View
+
+Begin File "dbo.Alphabetical list of products.sql"
+PATH=.\View\dbo.Alphabetical list of products.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=56
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Current Product List.sql"
+PATH=.\View\dbo.Current Product List.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=57
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Customer and Suppliers by City.sql"
+PATH=.\View\dbo.Customer and Suppliers by City.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=58
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Invoices.sql"
+PATH=.\View\dbo.Invoices.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=59
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Order Details Extended.sql"
+PATH=.\View\dbo.Order Details Extended.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=60
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Order Subtotals.sql"
+PATH=.\View\dbo.Order Subtotals.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=61
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Orders Qry.sql"
+PATH=.\View\dbo.Orders Qry.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=62
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Product Sales for 1997.sql"
+PATH=.\View\dbo.Product Sales for 1997.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=63
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Products Above Average Price.sql"
+PATH=.\View\dbo.Products Above Average Price.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=64
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Products by Category.sql"
+PATH=.\View\dbo.Products by Category.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=65
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Quarterly Orders.sql"
+PATH=.\View\dbo.Quarterly Orders.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=66
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Sales Totals by Amount.sql"
+PATH=.\View\dbo.Sales Totals by Amount.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=67
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Sales by Category.sql"
+PATH=.\View\dbo.Sales by Category.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=68
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Summary of Sales by Quarter.sql"
+PATH=.\View\dbo.Summary of Sales by Quarter.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=69
+OBJECTTYPE=41
+End File
+
+Begin File "dbo.Summary of Sales by Year.sql"
+PATH=.\View\dbo.Summary of Sales by Year.sql
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=70
+OBJECTTYPE=41
+End File
+
+End SubProject
+
+Begin File "README.md"
+PATH=.\README.md
+DESCRIPTION=
+INCLUDE=1
+BUILDINDEX=-1
+OBJECTTYPE=-1
+End File
+
+End Project
