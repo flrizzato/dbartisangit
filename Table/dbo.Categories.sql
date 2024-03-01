@@ -14,6 +14,7 @@ CREATE TABLE dbo.Categories
     PRIMARY KEY CLUSTERED (CategoryID)
 )
 go
+-- TESTING THIS CHANGE
 IF OBJECT_ID(N'dbo.Categories') IS NOT NULL
     PRINT N'<<< CREATED TABLE dbo.Categories >>>'
 ELSE
